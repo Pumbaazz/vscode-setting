@@ -1,0 +1,101 @@
+{
+  "editor.inlineSuggest.enabled": true,
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.layoutControl.enabled": false,
+  "editor.fontFamily": "'Jetbrains Mono', Consolas, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.mouseWheelZoom": true,
+  "files.autoSave": "afterDelay",
+  "workbench.colorCustomizations": {
+    // Find match
+    "editor.findMatchBackground": "#000000",
+    "editor.findMatchBorder": "#ffff00cc",
+    "editor.findMatchHighlightBackground": "#ec02e45e",
+    "editor.findMatchHighlightBorder": "#ff000080",
+    // Line highlight
+    "editor.lineHighlightBackground": "#ffffff00",
+    "editor.lineHighlightBorder": "#ffffff00",
+    // Selection
+    "editor.selectionBackground": "#cbd50966",
+    "editor.selectionHighlightBackground": "#cbd50966",
+    "editor.selectionHighlightBorder": "#ff0000",
+    // Word highlight
+    "editor.wordHighlightBackground": "#ffffff00",
+    "editor.wordHighlightBorder": "#ffffff44",
+    // Cursor
+    "editorCursor.foreground": "#ffff00"
+    // Debug
+    // "statusBar.debuggingBackground": "#410d18",
+    // "statusBar.debuggingForeground": "#dddddd",
+  },
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "typescriptreact": true
+  },
+  "security.workspace.trust.untrustedFiles": "open",
+  "workbench.startupEditor": "none",
+  "debug.inlineValues": "on",
+  "gitlens.graph.layout": "editor",
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+  "git.openRepositoryInParentFolders": "always",
+  "editor.minimap.scale": 1,
+  "editor.minimap.showSlider": "always",
+  "explorer.confirmDragAndDrop": false,
+  "window.commandCenter": false,
+  "explorer.confirmDelete": false,
+  "workbench.editor.wrapTabs": true,
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "gitlens.currentLine.scrollable": false,
+  "gitlens.codeLens.scopes": [
+    "blocks",
+    "containers"
+  ],
+  "gitlens.statusBar.pullRequests.enabled": false,
+  "gitlens.currentLine.pullRequests.enabled": false,
+  "gitlens.currentLine.format": "${author, }${agoOrDate}${' via 'pullRequest}${ • message|20?}",
+  "yaml.schemas": {
+    "file:///c%3A/Users/phung.nguyen/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.jira.jqlList": [
+    {
+      "id": "a870ecb9-2aca-41ba-83e9-58e63221bbc3",
+      "enabled": true,
+      "name": "My ct4canopy Issues",
+      "query": "assignee = currentUser() AND resolution = Unresolved ORDER BY lastViewed DESC",
+      "siteId": "083f7f3c-b941-4241-8f90-318306fd8571",
+      "monitor": true
+    }
+  ],
+  "atlascode.jira.enabled": false,
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.gotoLocation.multipleReferences": "gotoAndPeek",
+  "editor.gotoLocation.multipleTypeDefinitions": "gotoAndPeek",
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "atlascode.bitbucket.explorer.refreshInterval": 5,
+  "workbench.colorTheme": "Arc Dark Theme",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "diffEditor.renderSideBySide": false,
+  "azure.resourceFilter": [
+    "4eff6498-b64e-4bc5-9443-fa212bfdddff/fc3cd0dc-cbb5-4109-98c8-f7a35232b0ee"
+  ],
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "omnisharp.organizeImportsOnFormat": true,
+  "window.zoomLevel": -1,
+  "editor.wordWrap": "on",
+}
