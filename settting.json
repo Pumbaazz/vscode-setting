@@ -1,8 +1,7 @@
 {
   "editor.inlineSuggest.enabled": true,
-  "workbench.iconTheme": "vscode-icons",
   "workbench.layoutControl.enabled": false,
-  "editor.fontFamily": "'IntelOne Mono', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'JetBrains Mono Light', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.mouseWheelZoom": true,
   "files.autoSave": "afterDelay",
@@ -52,11 +51,14 @@
   },
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.currentLine.scrollable": false,
-  "gitlens.codeLens.scopes": ["blocks", "containers"],
+  "gitlens.codeLens.scopes": [
+    "blocks",
+    "containers"
+  ],
   "gitlens.statusBar.pullRequests.enabled": false,
-  "gitlens.currentLine.format": "${author, }${agoOrDate}${' via 'pullRequest}${ • message|20?}",
+  "gitlens.currentLine.format": "${author, }${agoOrDate}${' via 'pullRequest}${ • message|30?}",
   "yaml.schemas": {
-    "file:///c%3A/Users/phung.nguyen/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+    "file:///c%3A/Users/phung.nguyen/.vscode/extensions/atlassian.atlascode-3.0.10/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
   },
   "atlascode.jira.jqlList": [
     {
@@ -82,7 +84,6 @@
     "editor.defaultFormatter": "vscode.json-language-features"
   },
   "atlascode.bitbucket.explorer.refreshInterval": 5,
-  "diffEditor.hideUnchangedRegions.enabled": true,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -92,16 +93,32 @@
   ],
   "terminal.integrated.enableMultiLinePasteWarning": false,
   "omnisharp.organizeImportsOnFormat": true,
-  "editor.wordWrap": "on",
   "editor.wrappingStrategy": "advanced",
   "omnisharp.sdkVersion": "6.0.408",
   "[csharp]": {
-    "editor.defaultFormatter": "ms-dotnettools.csharp"
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.codeActionsOnSave": [
+      "source.organizeImports",
+      "source.fixAll"
+    ]
   },
-  "cSpell.userWords": ["Newtonsoft"],
-  "workbench.colorTheme": "Dracula",
+  "cSpell.userWords": [
+    "Newtonsoft",
+    "Veeam",
+    "MediatR",
+  ],
   "cSpell.languageSettings": [],
   "cSpell.language": "en,en-US,en-GB",
   "gitlens.showWhatsNewAfterUpgrades": false,
-  "gitlens.showWelcomeOnInstall": false
+  "gitlens.showWelcomeOnInstall": false,
+  "gitlens.views.branches.avatars": false,
+  // "window.zoomLevel": -0.43,
+  "editor.wordWrap": "on",
+  "gitlens.views.repositories.avatars": false,
+  // "sonarlint.ls.javaHome": "C:\\\\Users\\\\phung.nguyen\\\\Desktop\\\\EXE\\\\jdk-17.0.10",
+  "workbench.colorTheme": "Visual Studio 2019 Dark",
+  "editor.defaultColorDecorators": true,
+  "gitlens.views.branches.branches.layout": "list",
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "workbench.iconTheme": "material-icon-theme"
 }
