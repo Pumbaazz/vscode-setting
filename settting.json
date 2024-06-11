@@ -1,10 +1,9 @@
 {
   "editor.inlineSuggest.enabled": true,
   "workbench.layoutControl.enabled": false,
-  "editor.fontFamily": "'JetBrains Mono Light', Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "'Fira Code Retina','JetBrains Mono Light', Consolas, 'Courier New', monospace",
   "editor.fontLigatures": true,
   "editor.mouseWheelZoom": true,
-  "files.autoSave": "afterDelay",
   "workbench.colorCustomizations": {
     // Find match
     "editor.findMatchBackground": "#000000",
@@ -22,15 +21,15 @@
     "editor.wordHighlightBackground": "#ffffff00",
     "editor.wordHighlightBorder": "#ffffff44",
     // Cursor
-    "editorCursor.foreground": "#ffff00"
+    "editorCursor.foreground": "#ffff00",
     // Debug
-    // "statusBar.debuggingBackground": "#410d18",
-    // "statusBar.debuggingForeground": "#dddddd",
+    "statusBar.debuggingBackground": "#410d18",
+    "statusBar.debuggingForeground": "#dddddd",
   },
   "github.copilot.enable": {
     "*": true,
     "plaintext": false,
-    "markdown": true,
+    "markdown": false,
     "scminput": false,
     "typescriptreact": true
   },
@@ -45,11 +44,10 @@
   "explorer.confirmDragAndDrop": false,
   "window.commandCenter": false,
   "explorer.confirmDelete": false,
-  "workbench.editor.wrapTabs": true,
+  // "workbench.editor.wrapTabs": true,
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "gitlens.codeLens.authors.enabled": false,
   "gitlens.currentLine.scrollable": false,
   "gitlens.codeLens.scopes": [
     "blocks",
@@ -79,11 +77,10 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.unicodeHighlight.ambiguousCharacters": false,
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
   },
-  "atlascode.bitbucket.explorer.refreshInterval": 5,
+  "atlascode.bitbucket.explorer.refreshInterval": 0,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -100,7 +97,7 @@
     "editor.codeActionsOnSave": [
       "source.organizeImports",
       "source.fixAll"
-    ]
+    ],
   },
   "cSpell.userWords": [
     "Newtonsoft",
@@ -112,13 +109,55 @@
   "gitlens.showWhatsNewAfterUpgrades": false,
   "gitlens.showWelcomeOnInstall": false,
   "gitlens.views.branches.avatars": false,
-  // "window.zoomLevel": -0.43,
+  "window.zoomLevel": -0.53,
   "editor.wordWrap": "on",
   "gitlens.views.repositories.avatars": false,
-  // "sonarlint.ls.javaHome": "C:\\\\Users\\\\phung.nguyen\\\\Desktop\\\\EXE\\\\jdk-17.0.10",
-  "workbench.colorTheme": "Visual Studio 2019 Dark",
-  "editor.defaultColorDecorators": true,
-  "gitlens.views.branches.branches.layout": "list",
+  "sonarlint.ls.javaHome": "C:\\\\Users\\\\phung.nguyen\\\\Desktop\\\\EXE\\\\jdk-17.0.10",
   "diffEditor.hideUnchangedRegions.enabled": true,
-  "workbench.iconTheme": "material-icon-theme"
+  "workbench.iconTheme": "material-icon-theme",
+  "terraform.languageServer.enable": false,
+  "terraform.codelens.referenceCount": true,
+  "mssql.connections": [
+    {
+      "connectionString": "Microsoft.SqlTools|itemtype:Profile|server:localhost|db:Cirrus|user:sql_developer|isConnectionString:true",
+      "database": "Cirrus",
+      "user": "sql_developer",
+      "server": "localhost",
+      "authenticationType": "SqlLogin",
+      "savePassword": true,
+      "password": ""
+    }
+  ],
+  "mssql.objectExplorer.groupBySchema": false,
+  "files.autoSaveDelay": 200,
+  "atlascode.bitbucket.pipelines.explorerEnabled": false,
+  "atlascode.bitbucket.issues.explorerEnabled": false,
+  "workbench.colorTheme": "Arc Dark Theme",
+  "github.copilot.editor.enableAutoCompletions": true,
+  "files.autoSave": "afterDelay",
+  "gitlens.blame.format": "${author} ${agoOrDate|14-}",
+  "gitlens.codeLens.authors.command": false,
+  "gitlens.codeLens.recentChange.command": false,
+  "gitlens.statusBar.enabled": false,
+  "razor.format.enable": false,
+  "razor.completion.commitElementsWithSpace": true,
+  "dotnet.automaticallySyncWithActiveItem": true,
+  "sonarlint.rules": {
+    "csharpsquid:S2629": {
+      "level": "off"
+    }
+  },
+  "window.restoreFullscreen": true,
+  "search.exclude": {
+    "**/bin": true,
+    "**/obj": true
+  },
+  "files.exclude": {
+    "**/.vs": true
+  },
+  "csharp.preview.improvedLaunchExperience": true,
+  "turboConsoleLog.addSemicolonInTheEnd": true,
+  "turboConsoleLog.logMessageSuffix": ": ",
+  "turboConsoleLog.quote": "'",
+  "mssql.splitPaneSelection": "end"
 }
